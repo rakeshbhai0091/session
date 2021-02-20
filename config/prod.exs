@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 config :cafe, CafeWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
-  url: [scheme: "https", host: "sessionize-me.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "sessionizee.herokuapp.com", port: 443],
   # For a custom domain
   # url: [scheme: "http", host: "www.sessionize.me", port: System.get_env("PORT")],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
